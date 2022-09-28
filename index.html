@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>CONTACT</h1>
+      </header>
+      <form action="thanks.html" netlify method="post">
+        <fieldset>
+          <legend>User Information</legend>
+          <p>
+            <label for="FirstName">First Name:</label><br>
+            <input type="text" name="FirstName" id="FirstName" required><br>
+          </p>
+          <p>
+            <label for="LastName">Last Name:</label><br>
+            <input type="text" name="LastName" id="LastName" required><br>
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"><br>
+          </p>
+          <p>
+            <label for="Phone">Phone:</label>
+            <input type="tel" name="Phone" id="Phone"><br>
+          </p>
+          <p>
+            <label for="query" >Query:</label>
+            <select name="query" id="query" required>
+              <option value="career opportunity" selected>Career Opportunity</option>
+              <option value="Business Proposal">Business Proposal</option>
+              <option value="General Query">General Query</option>
+              <option value="Complaint">Complaint</option>
+              <option value="Other">Other</option> 
+            </select><br>
+          </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" required="required"></textarea> <br>
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
